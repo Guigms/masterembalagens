@@ -37,17 +37,17 @@ export default function HomePage() {
           {[
             {
               nome: 'caixa 1',
-              imagem: '/produtos/padrao.jpg',
+              imagem: '/produto1.jpeg',
               descricao: 'Ideal para transporte e armazenamento com resistência.'
             },
             {
               nome: 'caixa 2',
-              imagem: '/produtos/personalizadas.jpg',
+              imagem: '/produto2.jpeg',
               descricao: 'Com sua marca, tamanho e estilo sob medida.'
             },
             {
               nome: 'caixa 3',
-              imagem: '/produtos/ecommerce.jpg',
+              imagem: '/produto3.jpeg',
               descricao: 'Soluções seguras para envio de produtos online.'
             }
           ].map((produto, index) => (
